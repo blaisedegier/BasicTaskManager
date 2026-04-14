@@ -46,9 +46,9 @@ A simple **ASP.NET Core MVC** web application for managing tasks with full **CRU
 
 ```text
 BasicTaskManager/
-├── ICE4.sln                              # Visual Studio solution
-├── prog6212-ice-4-ST10249838/
-│   ├── prog6212-ice-4-ST10249838.csproj  # Project file (.NET 8)
+├── BasicTaskManager.sln                  # Visual Studio solution
+├── BasicTaskManager/
+│   ├── BasicTaskManager.csproj           # Project file (.NET 8)
 │   ├── Program.cs                        # Application entry point & middleware
 │   ├── appsettings.json                  # App configuration
 │   ├── Controllers/
@@ -112,7 +112,7 @@ dotnet --version
 4. **Run the application**
 
    ```bash
-   dotnet run --project prog6212-ice-4-ST10249838
+   dotnet run --project BasicTaskManager
    ```
 
 5. **Open in your browser**
